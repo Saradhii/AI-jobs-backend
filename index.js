@@ -22,7 +22,6 @@ app.get("/",(req,res)=>{
   res.send("ai jobs backend working....")
 })
 
-// starting the server && checking db connection
 const PORT = process.env.PORT || 8060
 app.listen(PORT, async () => {
     try {
